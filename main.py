@@ -71,7 +71,7 @@ def download_video(url):
 # Create Gradio interface
 interface = gr.Interface(
     fn=download_video, 
-    inputs=gr.Textbox(label="Video URL"),
+    # inputs=gr.Textbox(label="Video URL"),
     inputs=gr.Textbox(label="Video URL", placeholder="https://vlxx.mx/video/..."), 
     outputs=[gr.Text(label="Status")],
     title="Video Downloader",
