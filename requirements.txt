@@ -2,4 +2,3 @@ selenium
 browsermob-proxy
 yt-dlp
 gradio
-chromium-chromedriver
